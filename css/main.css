@@ -1,0 +1,433 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #000; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  background-color: #fdf9f3; }
+
+h1, h2, h3 {
+  color: #fff;
+  text-align: center; }
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-bottom: 12px; }
+
+h2 {
+  color: #fff;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  letter-spacing: 1px; }
+
+h3 {
+  font-size: 1.125rem;
+  padding-top: 15px;
+  letter-spacing: 2px; }
+
+p {
+  color: #000;
+  line-height: 1.8rem;
+  text-align: center;
+  letter-spacing: 1px; }
+
+a {
+  text-decoration: none;
+  color: #fff;
+  -webkit-transition: all 0.1s ease-in;
+  -moz-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+  letter-spacing: 1px; }
+
+form {
+  text-align: center; }
+
+input, textarea {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 1.8rem;
+  letter-spacing: 1px;
+  padding: 8px 15px; }
+
+footer {
+  background-color: #fff; }
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+header {
+  background-image: url("../img/hero.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 650px;
+  border-bottom: 2px solid #e4a12c; }
+
+.container {
+  width: 85%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.button {
+  margin: 0 auto;
+  width: 275px;
+  height: 50px;
+  background-color: #993333;
+  cursor: pointer;
+  -webkit-transition: all 0.1s ease-in;
+  -moz-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in; }
+  .button:active {
+    background-color: #993333; }
+
+.logo {
+  height: 45px;
+  width: 142px; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+nav {
+  padding-top: 60px;
+  padding-bottom: 60px; }
+  nav ul {
+    margin-top: 10px; }
+    nav ul li {
+      display: inline-block; }
+      nav ul li a {
+        padding: 15px 20px; }
+        nav ul li a:hover {
+          background-color: #993333; }
+
+#header-content {
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+  margin: 0 auto;
+  width: 85%; }
+  #header-content h2 {
+    margin-top: -5px;
+    margin-bottom: 3rem; }
+
+#art-gallery {
+  position: relative;
+  background-image: url("../img/pattern.jpg");
+  background-size: contain;
+  height: 150px;
+  width: 100%;
+  border-bottom: 2px solid #e4a12c; }
+  #art-gallery a {
+    color: #993333;
+    border-bottom: 1px solid #993333; }
+  #art-gallery h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #000; }
+    #art-gallery h2 span {
+      font-weight: 700; }
+
+#about {
+  border-bottom: 2px solid #e4a12c; }
+  #about i {
+    font-size: 3.5rem;
+    margin-top: -10px;
+    margin-bottom: 10px; }
+  #about h2 {
+    color: #993333;
+    font-weight: 700;
+    padding-bottom: 12px;
+    line-height: 1.8rem; }
+  #about ul {
+    text-align: center;
+    font-size: 0; }
+  #about ul li {
+    position: relative;
+    display: inline-block;
+    font-size: 1.125rem;
+    width: calc(100%/3);
+    height: 0;
+    padding-bottom: calc(100%/3); }
+  #about .image {
+    background-size: 100%; }
+  #about .image-1 {
+    background-image: url("../img/img-1.jpg"); }
+  #about .image-2 {
+    background-image: url("../img/img-2.jpg"); }
+  #about .image-3 {
+    background-image: url("../img/img-3.jpg"); }
+  #about .text {
+    width: 75%;
+    position: absolute;
+    margin: auto auto;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+
+#tours {
+  position: relative;
+  background-image: url("../img/pattern.jpg");
+  background-size: contain;
+  width: 100%;
+  border-bottom: 2px solid #e4a12c; }
+  #tours img {
+    margin: 30px auto 40px;
+    display: block;
+    width: 250px; }
+  #tours .line {
+    position: absolute;
+    left: 50%;
+    margin-top: 40px;
+    height: 85%;
+    border-left: 3px solid #993333; }
+  #tours ul {
+    text-align: center; }
+    #tours ul li {
+      vertical-align: top;
+      text-align: center;
+      display: inline-block;
+      width: 45%; }
+  #tours h2 {
+    margin-top: 50px;
+    color: #993333;
+    font-weight: 700;
+    padding-bottom: 12px;
+    line-height: 1.4rem; }
+  #tours p {
+    margin: 0 auto;
+    width: 50%;
+    margin-bottom: 70px; }
+  #tours .button {
+    width: 375px;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+    #tours .button i {
+      font-size: 0.95rem;
+      margin-right: -5px; }
+
+#custom-tour {
+  border-bottom: 2px solid #e4a12c; }
+  #custom-tour p {
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 60px;
+    margin-bottom: 40px; }
+
+#quote {
+  background-image: url("../img/contact.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  border-bottom: 2px solid #e4a12c;
+  margin: 0 auto; }
+  #quote h1 {
+    color: #993333;
+    text-shadow: 0 0 25px rgba(255, 255, 255, 0.5);
+    padding-top: 90px;
+    margin-bottom: 20px; }
+  #quote input, #quote textarea {
+    border: 2px solid #e4a12c;
+    background-color: #fdf9f3; }
+  #quote input {
+    display: inline;
+    width: 350px;
+    margin: 10px; }
+  #quote textarea {
+    display: block;
+    margin: 0 auto;
+    width: 725px;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 50px; }
+  #quote .button {
+    background-color: #e4a12c;
+    margin-bottom: 60px; }
+    #quote .button:active {
+      background-color: #e4a12c; }
+
+footer {
+  margin: 0 auto; }
+  footer .button {
+    width: 85px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px; }
+    footer .button i {
+      font-size: 0.95rem;
+      margin-right: -5px; }
+  footer ul {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center; }
+    footer ul li {
+      font-size: 0.8rem;
+      display: inline-block;
+      margin-right: 40px; }
+      footer ul li:last-child {
+        margin-right: 0; }
+      footer ul li a {
+        color: #000; }
+        footer ul li a:active {
+          color: #993333; }
+
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 15px; } }
+@media screen and (max-width: 992px) {
+  #header-content {
+    padding-top: 5rem; }
+
+  .left {
+    float: none;
+    margin: 0 auto; }
+
+  .right {
+    display: none; }
+
+  #about i {
+    font-size: 2rem;
+    margin-bottom: 7px; }
+  #about h2 {
+    font-size: 1rem;
+    line-height: 1.4rem;
+    padding-bottom: 5px; }
+  #about p {
+    font-size: 0.9rem;
+    line-height: 1.2rem; }
+
+  #tours img {
+    width: 70%; }
+  #tours p {
+    width: 70%; }
+
+  #quote h1 {
+    padding-top: 60px;
+    margin-bottom: 30px; }
+  #quote input, #quote textarea {
+    margin: 10px auto;
+    display: block;
+    width: 400px; }
+  #quote textarea {
+    margin-bottom: 30px; }
+  #quote .button {
+    width: 400px; } }
+@media screen and (max-width: 735px) {
+  header {
+    height: 500px;
+    background-attachment: initial; }
+
+  #header-content {
+    padding-top: 2rem;
+    padding-bottom: 3rem; }
+
+  .container {
+    width: 75%; }
+
+  #about ul {
+    margin-top: 10px; }
+  #about ul li {
+    margin-bottom: 0 auto;
+    display: block;
+    width: 100%; }
+    #about ul li:nth-child(odd) {
+      display: none; }
+  #about p {
+    font-size: 1rem;
+    line-height: 1.5rem; }
+  #about .text {
+    width: 60%; }
+
+  #tours .line {
+    display: none; }
+  #tours ul li {
+    width: 85%; }
+    #tours ul li img {
+      width: 50%; }
+    #tours ul li p {
+      margin-bottom: 1rem; }
+
+  #custom-tour p {
+    width: 80%; }
+
+  #quote {
+    height: auto;
+    background-attachment: initial; }
+    #quote input, #quote textarea, #quote .button {
+      width: 75%; } }
+@media screen and (max-width: 600px) {
+  #about ul {
+    margin-top: 40px;
+    margin-bottom: 10px; } }
+@media screen and (max-width: 480px) {
+  html {
+    width: 100%; }
+
+  header {
+    height: auto; }
+
+  #header-content {
+    padding-top: 1rem;
+    padding-bottom: 5rem; }
+
+  #about ul {
+    margin-top: 70px; }
+  #about ul li {
+    margin-bottom: 65px; }
+  #about .text {
+    width: 80%; }
+
+  #tours ul li img {
+    width: 65%; }
+  #tours p {
+    width: 85%; }
+  #tours .button {
+    width: 300px; }
+
+  #quote input, #quote textarea, #quote .button {
+    width: 85%; }
+
+  footer ul li {
+    margin: 15px auto;
+    display: block; } }
+@media screen and (max-width: 320px) {
+  #about ul {
+    margin-top: 90px;
+    margin-bottom: -25px; }
+  #about ul li {
+    margin-bottom: 110px; } }
+
+/*# sourceMappingURL=main.css.map */
