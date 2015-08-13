@@ -2,9 +2,9 @@
 
 	var mobileWidth = 720;
 	var desktopWidth = 1200;
+	var windowWidth = $(window).width();
 
 	//BXSLIDER
-	var windowWidth = $(window).width();
 	var slider = false;
 	var bxSlider;
 
